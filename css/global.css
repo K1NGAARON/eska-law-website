@@ -145,6 +145,13 @@ img {
 }
 
 
+#rev_slider_1_1_wrapper .uranus .tp-bullet.selected .tp-bullet-inner, 
+#rev_slider_1_1_wrapper .uranus .tp-bullet.rs-touchhover .tp-bullet-inner {
+    background-color: var(--primary);
+}
+
+
+
 
 @media (max-width: 560px) {
     p,

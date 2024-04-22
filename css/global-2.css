@@ -1,0 +1,43 @@
+:root {
+    --primary: #003d1b;
+    --white: #fff;
+    --light-grey: #ECECEC;
+    --black: #1C1C1C;
+    --boxShadow: 0px 3px 6px #00000029;
+    --borderRadius: 26px;
+    --overlay: var(--black);
+    --overlayVertical: linear-gradient(to top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 24%, rgba(0,0,0,0) 70%);
+    --transition: all .25s ease-in-out;
+}
+
+#rev_slider_1_1_wrapper .uranus .tp-bullet.selected .tp-bullet-inner, 
+#rev_slider_1_1_wrapper .uranus .tp-bullet.rs-touchhover .tp-bullet-inner {
+    background-color: var(--primary);
+}
+
+#rev_slider_1_1_wrapper .uranus .tp-bullet.selected, 
+#rev_slider_1_1_wrapper .uranus .tp-bullet.rs-touchhover,
+#rev_slider_1_1_wrapper .uranus .tp-bullet {
+    box-shadow: 0 0 0 2px var(--primary);
+}
+
+.gdlr-core-flexslider.gdlr-core-bullet-style-cylinder .flex-control-nav li a.flex-active {
+    background-color: var(--primary);
+}
+
+.attorna-footer-wrapper a,
+.attorna-copyright-wrapper a {
+    color: var(--white);
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+.attorna-footer-wrapper a:hover,
+.attorna-copyright-wrapper a:hover {
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.attorna-copyright-wrapper a:hover {
+    color: var(--white);
+}
